@@ -1,0 +1,19 @@
+.wrapper {
+  width: 500px;
+  border: 1px solid black;
+  overflow: hidden; /* will contain if #first is longer than #second */
+}
+.first {
+  width: 50vw;
+  float: left;
+}
+.second {
+  overflow: hidden;
+  height: 400px;
+  margin-left: 20px;
+  z-index: -1;
+}
+.whole {
+  height: 300px;
+  margin: 40px;
+}
