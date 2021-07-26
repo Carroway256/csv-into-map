@@ -8,7 +8,7 @@ export default function Geocodelat(props) {
   if (props.cattegoryRow !== "") {
     var addresses = props.addresses;
     var cattegoryRow = props.cattegoryRow;
-    Geocode.setApiKey("AIzaSyBTwetdd-MoUInecSbNumYdDWFR0Wm3W1Q");
+    Geocode.setApiKey(ApiKey);
     addresses.forEach((element) => {
       var cattegory = element[cattegoryRow];
       element.splice(cattegoryRow, 1);
